@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1E301A29668FAC009A27CD /* number.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1E301929668FAC009A27CD /* number.png */; };
+		CE2C9556296AC52D00D8F683 /* BullsAndCowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C9555296AC52D00D8F683 /* BullsAndCowsViewController.swift */; };
+		CE5493B12967C63E0048C855 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5493B02967C63E0048C855 /* background.png */; };
+		CE5493B32967CB5B0048C855 /* GuessNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5493B22967CB5B0048C855 /* GuessNumberViewController.swift */; };
 		CEA01CA729652F71000EEF6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA01CA629652F71000EEF6D /* AppDelegate.swift */; };
 		CEA01CA929652F71000EEF6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA01CA829652F71000EEF6D /* SceneDelegate.swift */; };
 		CEA01CAB29652F71000EEF6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA01CAA29652F71000EEF6D /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1E301929668FAC009A27CD /* number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number.png; sourceTree = "<group>"; };
+		CE2C9555296AC52D00D8F683 /* BullsAndCowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsAndCowsViewController.swift; sourceTree = "<group>"; };
+		CE5493B02967C63E0048C855 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CE5493B22967CB5B0048C855 /* GuessNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberViewController.swift; sourceTree = "<group>"; };
 		CEA01CA329652F71000EEF6D /* guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA01CA629652F71000EEF6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA01CA829652F71000EEF6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +68,13 @@
 				CEA01CA829652F71000EEF6D /* SceneDelegate.swift */,
 				CEA01CAA29652F71000EEF6D /* ViewController.swift */,
 				CEA01CAC29652F71000EEF6D /* Main.storyboard */,
+				CE2C9555296AC52D00D8F683 /* BullsAndCowsViewController.swift */,
+				CE5493B22967CB5B0048C855 /* GuessNumberViewController.swift */,
 				CEA01CAF29652F74000EEF6D /* Assets.xcassets */,
 				CEA01CB129652F74000EEF6D /* LaunchScreen.storyboard */,
 				CEA01CB429652F74000EEF6D /* Info.plist */,
+				CE1E301929668FAC009A27CD /* number.png */,
+				CE5493B02967C63E0048C855 /* background.png */,
 			);
 			path = guess;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA01CB329652F74000EEF6D /* LaunchScreen.storyboard in Resources */,
+				CE5493B12967C63E0048C855 /* background.png in Resources */,
 				CEA01CB029652F74000EEF6D /* Assets.xcassets in Resources */,
+				CE1E301A29668FAC009A27CD /* number.png in Resources */,
 				CEA01CAE29652F71000EEF6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA01CAB29652F71000EEF6D /* ViewController.swift in Sources */,
+				CE5493B32967CB5B0048C855 /* GuessNumberViewController.swift in Sources */,
 				CEA01CA729652F71000EEF6D /* AppDelegate.swift in Sources */,
 				CEA01CA929652F71000EEF6D /* SceneDelegate.swift in Sources */,
+				CE2C9556296AC52D00D8F683 /* BullsAndCowsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
